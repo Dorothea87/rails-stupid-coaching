@@ -1,0 +1,12 @@
+<h1 class="p-5">Answer below</h1>
+  <div class="px-5">
+    <%= @question %>
+    <p>-You</p>
+  </div>
+  <div class="light-yellow px-5">
+    <strong><%= @answer %></strong>
+    <p>-Your coach</p>
+  </div>
+  <div class="px-5">
+    <%= link_to "Go and ask another question", ask_path %>
+  </div>
